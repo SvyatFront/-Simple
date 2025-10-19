@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>SSimple</title>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container header__container">
+      <a href="#" class="logo header__logo">
+        <img class="header__logo-img" src="images/header__logo.svg" alt="логотип">
+      </a>
+      <nav class="header__nav">
+        <button class="burger-button" aria-expanded="false" aria-controls="list">
+          <span></span></button>
+        <ul class="header__menu" id="list">
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Продукция</a></li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Материалы</a></li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">О нас</a></li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__buttons">
+        <form action="#" class="search header__search">
+        <button class="header__search-btn">
+          <svg class="header__search-btn-svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+          <path d="M16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z" 
+                stroke="currentColor" stroke-width="2" transform="translate(3 3)"/>
+          <path d="M4.35 4.35L0 0" 
+                stroke="currentColor" stroke-width="2" transform="translate(15.65 16.65)"/>
+          </svg>
+        </button>
+      </form>
+      <form action="#" class="log-in header__log-in">
+        <button class="header__log-in-btn">
+          <svg class="header__log-in-btn-svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+          <path d="M15 3L19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5L21 19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21L15 21" 
+                stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M10 17L15 12L10 7" 
+                stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M15 12L3 12" 
+                stroke="CurrentColor" stroke-width="2"/>
+          </svg>
+        </button>
+      </form>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="hero">
+      <div class="container  hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Простые вещи. Из бумаги</h1>
+          <p class="hero__text">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
+          <button class="hero__button">Каталог</button>
+        </div>
+        <div class="hero__image">
+          <picture>
+            <source srcset="images/hero-large-img.svg" media="(min-width: 1030px)">
+            <source srcset="images/hero-medium-img.svg" media="(min-width: 760px) and (max-width: 1029px)">
+            <source srcset="images/hero-small-img.svg" media="(max-width: 759px)">
+            <img src="images/hero-small-img.svg" alt="херо маленькое фото">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="result">
+      <div class="container result__container">
+        <div class="result__top-content">
+
+          <div class="result__top-item">
+            <div class="result__top-img">
+              <img src="images/result__top1.svg" alt="результат топ1">
+            </div>
+            <div class="result__top-descr">
+              <span class="result__top-title">V.1</span>
+              <p class="result__top-text">Результат вашего обучения</p>
+            </div>
+          </div>
+
+          <div class="result__top-item">
+            <div class="result__top-img">
+              <img src="images/result__top2.svg" alt="результат топ2">
+            </div>
+            <div class="result__top-descr">
+              <span class="result__top-title">V.2</span>
+              <p class="result__top-text">Результат вашего обучения</p>
+            </div>
+          </div>
+
+        <div class="result__top-item">
+          <div class="result__top-img">
+            <img src="images/result__top3.svg" alt="результат топ3">
+          </div>
+          <div class="result__top-descr">
+            <span class="result__top-title">V.3</span>
+            <p class="result__top-text">Результат вашего обучения</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="result__bottom-content">
+          <div class="result__bottom-content">
+            <div class="result__bottom-img">
+              <picture>
+                <source srcset="images/result__bottom-large.svg" media="(min-width: 1200px)">
+                <source srcset="images/result__bottom-medium.svg" media="(min-width: 580px) and (max-width: 1200px)">
+                <source srcset="images/result__bottom-small.svg" media="(max-width: 579px)">
+                <img src="images/result__bottom-medium.svg" alt="результат боттом">
+              </picture>
+            </div>
+            <div class="result__bottom-descr">
+              <h2 class="result__bottom-title">Максимальная белизна</h2>
+              <p class="result__bottom-text">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.</p>
+              <p class="result__bottom-text">Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container products__container">
+
+        <div class="product__item">
+          <div class="product__item-img">
+            <picture>
+              <source srcset="images/product__item-img1-large.png" media="(min-width: 1200px)">
+              <source srcset="images/product__item-img1-medium.png" media="(min-width: 760px) and (max-width: 1200px)">
+              <source srcset="images/product__item-img1-small.png" media="(max-width: 759px)">
+              <img src="images/product__item-img1-medium.png" alt="продукты упаковка">
+            </picture>     
+          </div>
+          <div class="product__item-title">Упаковка</div>
+          <div class="product__item-print">Тираж: от 50 штук</div>
+          <p class="product__item-text">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+          <a href="" class="product__item-link"><span>Подробнее</span>
+            <svg class="product__item-link-svg" viewBox="0 0 21 13" width="21" height="13" fill="currentColor">
+            <path d="M0 5.66L20 5.66L20 7.66L0 7.66L0 5.66ZM18.59 6.66L13.64 1.71C13.24 1.32 13.24 0.69 13.64 0.3C14.03 -0.1 14.65 -0.1 15.05 0.3L20.71 5.95C21.1 6.35 21.1 6.97 20.71 7.37L15.05 13.02C14.65 13.42 14.03 13.42 13.64 13.02C13.24 12.63 13.24 12.01 13.64 11.61L18.59 6.66Z"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="product__item">
+          <div class="product__item-img">
+            <picture>
+              <source srcset="images/product__item-img2-large.png" media="(min-width: 1200px)">
+              <source srcset="images/product__item-img2-medium.png" media="(min-width: 760px) and (max-width: 1200px)">
+              <source srcset="images/product__item-img2-small.png" media="(max-width: 759px)">
+              <img src="images/product__item-img2-medium.png" alt="продукты пакеты">
+            </picture>   
+          </div>
+          <div class="product__item-title">Пакеты</div>
+          <div class="product__item-print">Тираж: от 200 штук</div>
+          <p class="product__item-text">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+          <a href="" class="product__item-link"><span>Подробнее</span>
+            <svg class="product__item-link-svg" viewBox="0 0 21 13" width="21" height="13" fill="currentColor">
+            <path d="M0 5.66L20 5.66L20 7.66L0 7.66L0 5.66ZM18.59 6.66L13.64 1.71C13.24 1.32 13.24 0.69 13.64 0.3C14.03 -0.1 14.65 -0.1 15.05 0.3L20.71 5.95C21.1 6.35 21.1 6.97 20.71 7.37L15.05 13.02C14.65 13.42 14.03 13.42 13.64 13.02C13.24 12.63 13.24 12.01 13.64 11.61L18.59 6.66Z"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="product__item">
+          <div class="product__item-img">
+            <picture>
+              <source srcset="images/product__item-img3-large.png" media="(min-width: 1200px)">
+              <source srcset="images/product__item-img3-medium.png" media="(min-width: 760px) and (max-width: 1200px)">
+              <source srcset="images/product__item-img3-small.png" media="(max-width: 759px)">
+              <img src="images/product__item-img3-medium.png" alt="продукты кейсы">
+            </picture>  
+          </div>
+          <div class="product__item-title">Кейсы</div>
+          <div class="product__item-print">Тираж: от 30 штук</div>
+          <p class="product__item-text">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+          <a href="" class="product__item-link"><span>Подробнее</span>
+            <svg class="product__item-link-svg" viewBox="0 0 21 13" width="21" height="13" fill="currentColor">
+            <path d="M0 5.66L20 5.66L20 7.66L0 7.66L0 5.66ZM18.59 6.66L13.64 1.71C13.24 1.32 13.24 0.69 13.64 0.3C14.03 -0.1 14.65 -0.1 15.05 0.3L20.71 5.95C21.1 6.35 21.1 6.97 20.71 7.37L15.05 13.02C14.65 13.42 14.03 13.42 13.64 13.02C13.24 12.63 13.24 12.01 13.64 11.61L18.59 6.66Z"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="product__item">
+          <div class="product__item-img">
+            <picture>
+              <source srcset="images/product__item-img4-large.png" media="(min-width: 1200px)">
+              <source srcset="images/product__item-img4-medium.png" media="(min-width: 760px) and (max-width: 1200px)">
+              <source srcset="images/product__item-img4-small.png" media="(max-width: 759px)">
+              <img src="images/product__item-img4-medium.png" alt="продукты другие изделия">
+            </picture>
+          </div>
+          <div class="product__item-title">Другие изделия</div>
+          <div class="product__item-print">Тираж: от 100 штук</div>
+          <p class="product__item-text">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+          <a href="" class="product__item-link"><span>Подробнее</span>
+            <svg class="product__item-link-svg" viewBox="0 0 21 13" width="21" height="13" fill="currentColor">
+            <path d="M0 5.66L20 5.66L20 7.66L0 7.66L0 5.66ZM18.59 6.66L13.64 1.71C13.24 1.32 13.24 0.69 13.64 0.3C14.03 -0.1 14.65 -0.1 15.05 0.3L20.71 5.95C21.1 6.35 21.1 6.97 20.71 7.37L15.05 13.02C14.65 13.42 14.03 13.42 13.64 13.02C13.24 12.63 13.24 12.01 13.64 11.61L18.59 6.66Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="partners">
+      <div class="container partners__container">
+        <div class="partners__item">
+          <a class="partners__item-img" href="#">
+            <picture>
+              <source srcset="images/partners__item-img1-medium.png" media="(min-width: 1200px)">
+              <source srcset="images/partners__item-img1-small.png" media="(min-width: 760px) and (max-width: 1199px)">
+              <source srcset="images/partners__item-img1-medium.png" media="(min-width: 630px) and (max-width: 759px)">
+              <source srcset="images/partners__item-img1-small.png" media="(max-width: 630px)">
+              <img src="images/partners__item-img1-medium.png" alt="партнеры 1 фото">
+            </picture>
+          </a>
+        </div>
+        <div class="partners__item">
+          <a class="partners__item-img" href="#">
+            <picture>
+              <source srcset="images/partners__item-img2-medium.png" media="(min-width: 1200px)">
+              <source srcset="images/partners__item-img2-small.png" media="(min-width: 760px) and (max-width: 1199px)">
+              <source srcset="images/partners__item-img2-medium.png" media="(min-width: 630px) and (max-width: 759px)">
+              <source srcset="images/partners__item-img2-small.png" media="(max-width: 630px)">
+              <img src="images/partners__item-img2-medium.png" alt="партнеры 2 фото">
+            </picture>
+          </a>
+        </div>
+        <div class="partners__item">
+          <a class="partners__item-img" href="#">
+            <picture>
+              <source srcset="images/partners__item-img3-medium.png" media="(min-width: 1200px)">
+              <source srcset="images/partners__item-img3-small.png" media="(min-width: 760px) and (max-width: 1199px)">
+              <source srcset="images/partners__item-img3-medium.png" media="(min-width: 630px) and (max-width: 759px)">
+              <source srcset="images/partners__item-img3-small.png" media="(max-width: 630px)">
+              <img src="images/partners__item-img3-medium.png" alt="партнеры 3 фото">
+            </picture>
+          </a>
+        </div>
+        <div class="partners__item">
+          <a class="partners__item-img" href="#">
+            <picture>
+              <source srcset="images/partners__item-img4-medium.png" media="(min-width: 1200px)">
+              <source srcset="images/partners__item-img4-small.png" media="(min-width: 760px) and (max-width: 1199px)">
+              <source srcset="images/partners__item-img4-medium.png" media="(min-width: 630px) and (max-width: 759px)">
+              <source srcset="images/partners__item-img4-small.png" media="(max-width: 630px)">
+              <img src="images/partners__item-img4-medium.png" alt="партнеры 4 фото">
+            </picture>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sketchbook">
+      <div class="container sketchbook__container">
+
+        <div class="sketchbook__content">
+          <h2 class="sketchbook__title">Simple скетчбук</h2>
+          <p class="sketchbook__text">80 листов, твердая обложка, бумага  Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
+          <button class="sketchbook__btn">Купить</button>
+        </div>
+        <div class="sketchbook__img">
+          <picture>
+            <source srcset="images/sketchbook__img-large.svg" media="(min-width: 1200px)">
+            <source srcset="images/sketchbook__img-medium.svg" media="(min-width: 630px) and (max-width: 1200px)">
+            <source srcset="images/sketchbook__img-small.svg" media="(max-width: 630px)">
+            <img src="images/sketchbook__img-medium.svg" alt="скетчбук">
+          </picture>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer__container">
+          <a href="#" class="footer__top-logo">
+          <img src="images/footer__logo.svg" alt="футер лого">
+        </a>
+        <div class="footer__top-media">
+          <a href="#" class="footer__top-media-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path d="M15.4 21V14.03H17.74L18.09 11.33H15.4V9.6C15.4 8.81 15.62 8.28 16.74 8.28H18.18V5.86C17.48 5.78 16.79 5.75 16.09 5.75C14.02 5.75 12.61 7.01 12.61 9.33V11.33H10.27V14.03H12.61V21H4C3.73 21 3.48 20.89 3.29 20.71C3.11 20.52 3 20.27 3 20V4C3 3.73 3.11 3.48 3.29 3.29C3.48 3.11 3.73 3 4 3H20C20.27 3 20.52 3.11 20.71 3.29C20.89 3.48 21 3.73 21 4V20C21 20.27 20.89 20.52 20.71 20.71C20.52 20.89 20.27 21 20 21H15.4Z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer__top-media-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path d="M22.16 5.66C21.4 5.99 20.59 6.22 19.76 6.32C20.63 5.79 21.29 4.97 21.6 4C20.78 4.49 19.88 4.83 18.94 5.01C18.31 4.34 17.48 3.89 16.57 3.74C15.66 3.59 14.73 3.75 13.92 4.18C13.1 4.62 12.46 5.31 12.08 6.15C11.7 6.99 11.61 7.93 11.82 8.83C10.16 8.75 8.53 8.31 7.04 7.56C5.56 6.81 4.25 5.75 3.2 4.46C2.83 5.1 2.63 5.82 2.63 6.56C2.63 8.01 3.37 9.29 4.49 10.04C3.83 10.02 3.18 9.84 2.6 9.52V9.57C2.6 10.54 2.93 11.47 3.54 12.22C4.16 12.97 5.01 13.48 5.95 13.67C5.34 13.84 4.69 13.86 4.06 13.74C4.33 14.58 4.85 15.3 5.55 15.82C6.25 16.34 7.1 16.63 7.97 16.65C7.1 17.33 6.11 17.83 5.05 18.13C3.99 18.43 2.87 18.51 1.78 18.38C3.69 19.61 5.92 20.26 8.19 20.26C15.88 20.26 20.09 13.89 20.09 8.36C20.09 8.18 20.08 8 20.08 7.82C20.9 7.23 21.61 6.5 22.16 5.66Z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer__top-media-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path d="M12 2C14.72 2 15.06 2.01 16.12 2.06C17.19 2.11 17.91 2.28 18.55 2.53C19.21 2.78 19.77 3.12 20.32 3.68C20.83 4.18 21.22 4.78 21.48 5.45C21.72 6.09 21.89 6.81 21.94 7.88C21.99 8.94 22 9.28 22 12C22 14.72 21.99 15.06 21.94 16.12C21.89 17.19 21.72 17.91 21.48 18.55C21.22 19.22 20.83 19.82 20.32 20.32C19.82 20.83 19.22 21.22 18.55 21.48C17.91 21.72 17.19 21.89 16.12 21.94C15.06 21.99 14.72 22 12 22C9.28 22 8.94 21.99 7.88 21.94C6.81 21.89 6.09 21.72 5.45 21.48C4.78 21.22 4.18 20.83 3.68 20.32C3.17 19.82 2.78 19.22 2.52 18.55C2.28 17.91 2.11 17.19 2.06 16.12C2.01 15.06 2 14.72 2 12C2 9.28 2.01 8.94 2.06 7.88C2.11 6.81 2.28 6.09 2.52 5.45C2.78 4.78 3.17 4.18 3.68 3.68C4.18 3.17 4.78 2.78 5.45 2.52C6.09 2.28 6.81 2.11 7.88 2.06C8.94 2.01 9.28 2 12 2ZM12 7C10.67 7 9.4 7.53 8.46 8.46C7.53 9.4 7 10.67 7 12C7 13.33 7.53 14.6 8.46 15.54C9.4 16.47 10.67 17 12 17C13.33 17 14.6 16.47 15.54 15.54C16.47 14.6 17 13.33 17 12C17 10.67 16.47 9.4 15.54 8.46C14.6 7.53 13.33 7 12 7ZM18.5 6.75C18.5 6.42 18.37 6.1 18.13 5.87C17.9 5.63 17.58 5.5 17.25 5.5C16.92 5.5 16.6 5.63 16.37 5.87C16.13 6.1 16 6.42 16 6.75C16 7.08 16.13 7.4 16.37 7.63C16.6 7.87 16.92 8 17.25 8C17.58 8 17.9 7.87 18.13 7.63C18.37 7.4 18.5 7.08 18.5 6.75ZM12 9C12.8 9 13.56 9.32 14.12 9.88C14.68 10.44 15 11.2 15 12C15 12.8 14.68 13.56 14.12 14.12C13.56 14.68 12.8 15 12 15C11.2 15 10.44 14.68 9.88 14.12C9.32 13.56 9 12.8 9 12C9 11.2 9.32 10.44 9.88 9.88C10.44 9.32 11.2 9 12 9Z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer__top-media-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path d="M21.54 6.5C22 8.28 22 12 22 12C22 12 22 15.72 21.54 17.5C21.29 18.49 20.55 19.26 19.6 19.52C17.9 20 12 20 12 20C12 20 6.11 20 4.4 19.52C3.45 19.26 2.71 18.48 2.46 17.5C2 15.72 2 12 2 12C2 12 2 8.28 2.46 6.5C2.71 5.51 3.45 4.74 4.4 4.48C6.11 4 12 4 12 4C12 4 17.9 4 19.6 4.48C20.55 4.74 21.29 5.52 21.54 6.5ZM10 15.5L16 12L10 8.5V15.5Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer__bottom">
+      <div class="container footer__container">
+        <p class="footer__copy">Simple ® 2021</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
